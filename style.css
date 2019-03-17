@@ -90,3 +90,72 @@ form img {
     border-radius: 50%;
     margin-right: 15px;    
 }
+
+.about {
+    margin-top: 15px;
+    padding-left: 15px;
+    font-size: small;
+    color: #777;
+}
+
+.answers {
+    margin-left: 150px;
+}
+
+.answer {
+    width: 592px;
+    padding: 15px;
+    line-height: 1.54;
+}
+
+.answer .real_link {
+    font-size: 18px;
+    color: #1a0dab;
+    text-decoration: none;    
+}
+
+.answer .cache_link {
+    font-size: 18px;
+    color: #006621;
+    font-size: 14px;
+    text-decoration: none;    
+}
+
+.short {
+    font-size: small;
+    color: #545454;
+}
+
+.short .date {
+    color: #777;
+}
+
+table{
+    border-collapse: separate !important;
+    border: 1px solid #dfe1e5;
+}
+
+th, td {
+    border-bottom: 1px solid #dfe1e5;
+}
+
+td.last {
+    border-bottom: none;
+}
+
+table {
+    width: 592px;
+    border-radius: 1em;
+}
+
+td {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    line-height: 1.2;
+}
+
+.tab_h1 {
+    color: #777;
+}
