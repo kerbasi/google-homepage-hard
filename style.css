@@ -130,25 +130,25 @@ form img {
     color: #777;
 }
 
-table{
-    border-collapse: separate !important;
-    border: 1px solid #dfe1e5;
-}
-
-th, td {
-    border-bottom: 1px solid #dfe1e5;
-}
-
-td.last {
-    border-bottom: none;
-}
-
 table {
     width: 592px;
+}
+
+table.ask{
+    border-collapse: separate !important;
+    border: 1px solid #dfe1e5;
     border-radius: 1em;
 }
 
-td {
+.ask th, .ask td {
+    border-bottom: 1px solid #dfe1e5;
+}
+
+.ask td.last {
+    border-bottom: none;
+}
+
+.ask td {
     font-size: 18px;
     padding-left: 15px;
     padding-bottom: 5px;
@@ -158,4 +158,24 @@ td {
 
 .tab_h1 {
     color: #777;
+}
+
+p.related {
+    padding: 15px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+table.links {
+    margin-left: 15px;
+}
+
+.links td a{
+    color: #1a0dab;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 3px 40px 3px 0;
 }
