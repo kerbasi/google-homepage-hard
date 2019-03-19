@@ -130,14 +130,11 @@ form img {
     color: #777;
 }
 
-table {
-    width: 592px;
-}
-
 table.ask{
     border-collapse: separate !important;
     border: 1px solid #dfe1e5;
     border-radius: 1em;
+    width: 592px;
 }
 
 .ask th, .ask td {
@@ -168,6 +165,7 @@ p.related {
 
 table.links {
     margin-left: 15px;
+    width: 592px;
 }
 
 .links td a{
@@ -178,4 +176,63 @@ table.links {
     font-weight: bolder;
     cursor: pointer;
     padding: 3px 40px 3px 0;
+}
+
+.Gpages {
+    margin-left: 150px;
+    width: 592px;
+}
+
+table.Gp {
+    margin: 30px auto 30px;
+    font-size: small;
+}
+
+.gimg {
+    background: url(img/nav_logo242.png) no-repeat;
+}
+
+.Gp td {
+    vertical-align: top;
+    text-align: center;
+}
+
+.G {
+    background-position: -24px 0;
+    display: block;
+    width: 28px;
+    height: 40px;
+}
+
+.o1 {
+    background-position: -53px 0;
+    display: block;
+    width: 20px;
+    height: 40px;
+    margin-bottom: 3px;
+}
+
+.o2 {
+    background-position: -73px 0;
+    display: block;
+    width: 20px;
+    height: 40px;
+    margin-bottom: 3px;
+}
+
+.next {
+    background-position: -96px 0;
+    display: block;
+    width: 71px;
+    height: 40px;
+    margin-bottom: 3px;
+}
+
+td.td_next {
+    text-align: right;
+}
+
+.Gp a {
+    text-decoration: none;
+    color: #4285f4;
 }
