@@ -236,3 +236,59 @@ td.td_next {
     text-decoration: none;
     color: #4285f4;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+.tf {
+    display: flex;
+    flex-direction: row;
+    margin-left: 166px;
+    line-height: 40px; 
+}
+
+.ltf {
+    width: 3%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    
+}
+
+.rtf {
+    width: 97%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: small;
+}
+
+.bf {
+    display: flex;
+    flex-direction: row;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4; 
+}
+
+.bfa {
+    margin-left: 166px;
+    font-size: small;
+}
+
+.rtf a, .bf a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+
+.rtf a:hover, .bf a:hover {
+    color: black;
+}
+
+.bf a {
+    padding-right: 20px;
+}
